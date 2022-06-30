@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_20sdp"
+    tools:ignore="MissingDefaultResource">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/nav_user_profile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile"
+        app:riv_oval="true"
+        app:riv_border_width="@dimen/_1sdp"
+        app:riv_border_color="@color/primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/nav_user_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_user_profile"
+        app:layout_constraintStart_toEndOf="@+id/nav_user_profile"
+        app:layout_constraintTop_toTopOf="@+id/nav_user_profile" />
+</androidx.constraintlayout.widget.ConstraintLayout>

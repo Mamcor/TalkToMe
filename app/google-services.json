@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414055979852",
+    "project_id": "talktome-ace92",
+    "storage_bucket": "talktome-ace92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414055979852:android:022d53f0f4202ecd510de9",
+        "android_client_info": {
+          "package_name": "com.mcs.talktome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414055979852-s0de1j8mg38u728gh8rdpjptbcqd2796.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx_QtlENIMY6r7pZIASbECc0S6IP_7fcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414055979852-s0de1j8mg38u728gh8rdpjptbcqd2796.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

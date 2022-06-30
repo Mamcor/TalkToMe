@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#506b7c</color>
+    <color name="primaryDark">#3c4f5d</color>
+    <color name="send_message_background">#3c4f5d</color>
+    <color name="received_message_background">#7391a5</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="input_background">#f2f2f2</color>
+    <color name="error">#B00020</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#07A907</color>
+</resources>

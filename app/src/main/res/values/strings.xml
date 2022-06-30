@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TalkToMe</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="login_to_continue">Connectez-vous pour continuez</string>
+    <string name="password">Mot de passe</string>
+    <string name="email">Email</string>
+    <string name="sing_in">Connexion</string>
+    <string name="new_account">Créer un compte</string>
+    <string name="create_account">Créez votre compte</string>
+    <string name="profile_image">Cliquer pour choisir une photo de profil</string>
+    <string name="name">Nom</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>
+    <string name="register">Créer le compte</string>
+    <string name="login">Se connecter</string>
+    <string name="select_user">Mes Amis</string>
+    <string name="message">Ecrivez un essage</string>
+    <string name="on_line">Je suis en ligne</string>
+    <string name="home">Accueil</string>
+    <string name="profile">Profil</string>
+    <string name="chat">Chat…</string>
+    <string name="friends">Amis</string>
+    <string name="find_friend">Find frends</string>
+    <string name="others">Autres</string>
+    <string name="logout">Déconnection</string>
+    <string name="settings">Préférences</string>
+    <string name="about">À Propos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_profile">Votre profil</string>
+    <string name="search">Rechercher...</string>
+    <string name="edit_profil">Votre Profil</string>
+    <string name="btn_edit">Enregistrer les modifications</string>
+</resources>

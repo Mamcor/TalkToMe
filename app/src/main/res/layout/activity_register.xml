@@ -158,7 +158,9 @@
                     app:boxCornerRadiusTopEnd="@dimen/_8sdp"
                     app:boxCornerRadiusTopStart="@dimen/_8sdp"
                     app:startIconDrawable="@drawable/ic_lock"
-                    app:startIconTint="@color/primaryDark">
+                    app:startIconTint="@color/primaryDark"
+                    app:endIconDrawable="@drawable/ic_visibility"
+                    app:endIconTint="@color/primaryDark">
 
                     <EditText
                         android:id="@+id/register_password"
@@ -185,7 +187,9 @@
                     app:boxCornerRadiusTopEnd="@dimen/_8sdp"
                     app:boxCornerRadiusTopStart="@dimen/_8sdp"
                     app:startIconDrawable="@drawable/ic_lock"
-                    app:startIconTint="@color/primaryDark">
+                    app:startIconTint="@color/primaryDark"
+                    app:endIconDrawable="@drawable/ic_visibility"
+                    app:endIconTint="@color/primaryDark">
 
                     <EditText
                         android:id="@+id/register_confirmPassword"

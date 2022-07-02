@@ -65,6 +65,8 @@ public class LoginActivity extends AppCompatActivity {
                         mSharedPreferencesManager.putBoolean(Constants.KEY_IS_LOGIN, true);
                         mSharedPreferencesManager.putString(Constants.KEY_USER_ID, documentSnapshot.getId());
                         mSharedPreferencesManager.putString(Constants.KEY_USER_NAME, documentSnapshot.getString(Constants.KEY_USER_NAME));
+                        mSharedPreferencesManager.putString(Constants.KEY_USER_EMAIL, documentSnapshot.getString(Constants.KEY_USER_EMAIL));
+                        mSharedPreferencesManager.putString(Constants.KEY_USER_PASSWORD, documentSnapshot.getString(Constants.KEY_USER_PASSWORD));
                         mSharedPreferencesManager.putString(Constants.KEY_USER_IMAGE, documentSnapshot.getString(Constants.KEY_USER_IMAGE));
                         Intent intent = new Intent(this, MainActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

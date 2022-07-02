@@ -82,6 +82,8 @@ public class RegisterActivity extends AppCompatActivity {
                     mSharedPreferencesManager.putBoolean(Constants.KEY_IS_LOGIN, true);
                     mSharedPreferencesManager.putString(Constants.KEY_USER_ID, documentReference.getId()); //  save doc ref in sharedPref
                     mSharedPreferencesManager.putString(Constants.KEY_USER_NAME, mBinding.registerName.getText().toString());
+                    mSharedPreferencesManager.putString(Constants.KEY_USER_EMAIL, mBinding.registerEmail.getText().toString());
+                    mSharedPreferencesManager.putString(Constants.KEY_USER_PASSWORD, mBinding.registerPassword.getText().toString());
                     mSharedPreferencesManager.putString(Constants.KEY_USER_IMAGE, mEncodeImage);
                     Intent intent = new Intent(this, MainActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
